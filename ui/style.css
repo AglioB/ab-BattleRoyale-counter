@@ -1,0 +1,23 @@
+#caja {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    width: 3.6vw; /* Ancho relativo al ancho de la pantalla */
+    height: 3.2vh; /* Altura relativa a la altura de la pantalla */
+    border-radius: 5px;
+    margin: auto;
+    position: absolute;
+    top: 3px;;
+    left:0;
+    right:0;
+    display: none; /* Para que el contador no aparezca en la pantalla hasta que sea activado por el npc (de no ser asi colocalo como "flex") */
+
+}
+
+#caja p {
+    margin: auto;
+    position: flex;
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
