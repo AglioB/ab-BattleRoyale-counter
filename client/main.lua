@@ -52,8 +52,8 @@ function DrawCounter()
 end
 
 -- Evento para actualizar el contador con los datos recibidos desde el servidor
-RegisterNetEvent("ab-cnntador:cl:UpdateCounter")
-AddEventHandler("UpdateCounter", function(alive, killed)
+RegisterNetEvent("ab-counter:cl:UpdateCounter")
+AddEventHandler("ab-counter:cl:UpdateCounter", function(alive, killed)
     playersAlive = alive
     kills = killed
     if PlayerJoined then
